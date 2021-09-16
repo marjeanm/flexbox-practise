@@ -1,0 +1,171 @@
+@import url("toggleswitch.css");
+
+
+body {
+    background-color: #f6f5fa;
+    font-family: 'Poppins', sans-serif;
+  }
+  h1{
+    color:#3b426d;
+   margin-bottom:0;
+  }
+  p.color {
+      font-size: smaller;
+    font-style:italic;
+  }
+  .what-you-need {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    text-align: center;
+    margin-bottom:150px;
+  }
+  
+  button.btn-color1 {
+    margin-top: 125px;
+    background:linear-gradient(to bottom, #55abb0 5%, #44cacf 100%);
+   background-color:#55abb0;
+    text-shadow:0px 1px 0px #16c6cc;
+      box-shadow:inset 0px 1px 0px 0px #5c8896;
+     box-shadow: 2.8px 2.8px 2.2px rgb(0 0 0 / 7%), 6.7px 6.7px 5.3px rgb(0 0 0 / 5%), 12.5px 12.5px 10px rgb(0 0 0 / 4%), 22.3px 22.3px 17.9px rgb(0 0 0 / 4%), 41.8px 41.8px 33.4px rgb(0 0 0 / 3%), 100px 100px 80px rgb(0 0 0 / 2%);
+  }
+  
+  .btn-color2 {
+    background:linear-gradient(to bottom, #e19674 5%, #e39f2b 100%);
+    background-color:#e19674;
+    text-shadow:0px 1px 0px #8a661d;
+        box-shadow:inset 0px 1px 0px 0px #e19674;
+     box-shadow: 2.8px 2.8px 2.2px rgb(0 0 0 / 7%), 6.7px 6.7px 5.3px rgb(0 0 0 / 5%), 12.5px 12.5px 10px rgb(0 0 0 / 4%), 22.3px 22.3px 17.9px rgb(0 0 0 / 4%), 41.8px 41.8px 33.4px rgb(0 0 0 / 3%), 100px 100px 80px rgb(0 0 0 / 2%);
+  }
+  .btn-color2:hover{
+     background:linear-gradient(to bottom, #e39f2b 5%, #e19674 100%);
+      background-color:#e39f2b;
+  }
+  .btn-color2:active{
+        position:relative;
+      top:1px;
+  }
+  .font{
+      font-size:1.5em;
+  }
+  .btn-color3{
+    background:linear-gradient(to bottom, #c55d9d 5%, #e87fc7 100%);
+  background-color:#e39f2b;
+    text-shadow:0px 1px 0px #8a661d;
+       text-shadow:0px 1px 0px #b36aba;
+  
+    box-shadow: 2.8px 2.8px 2.2px rgb(0 0 0 / 7%), 6.7px 6.7px 5.3px rgb(0 0 0 / 5%), 12.5px 12.5px 10px rgb(0 0 0 / 4%), 22.3px 22.3px 17.9px rgb(0 0 0 / 4%), 41.8px 41.8px 33.4px rgb(0 0 0 / 3%), 100px 100px 80px rgb(0 0 0 / 2%);
+  }
+  
+  
+  .btn-color3:hover{
+     background:linear-gradient(to bottom, #e87fc7 5%, #c55d9d 100%);
+      background-color:#e87fc7;
+  }
+  .btn-color3:active{
+        position:relative;
+      top:1px;
+  }
+  
+  .btn-color1:hover{
+     background:linear-gradient(to bottom, #44cacf 5%, #55abb0 100%);
+      background-color:#44cacf;
+  }
+  .btn-color1:active{
+        position:relative;
+      top:1px;
+  }
+  .btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  button {	
+      border-radius:10px;
+      border:1px solid #9adfe3;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Arial;
+      font-size:15px;
+      font-weight:bold;
+      padding:15px 24px;
+      text-decoration:none;
+    width:72%
+      
+    }
+    button:hover {
+      background: linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+      background-color: #80b5ea;
+    }
+    button:active {
+      position: relative;
+      top: 1px;
+    }
+  
+  .btn-color3 {
+    margin-top: 20px;
+  }
+  .info-box {
+    background-color: #f6f5fa;
+    padding:15px;
+    
+  }
+  .bold {
+    font-weight: 900;
+  }
+  .cyan {
+    color: #55abb0;
+  }
+  .orange {
+    color: #e19774;
+  }
+  .purple {
+    color: #c55d9e;
+  }
+  .free-wrapper,
+  .basic-wrapper,
+  .premium-wrapper {
+    background-color: white;
+  }
+  ul.noList {
+    list-style-type: none;
+  }
+  .addons-prem li::marker {
+    color: #c55d9e;
+  }
+  .addons li::marker {
+    color: #e19774;
+  }
+  .nested-box{
+    background-color:#6d7fff;
+  }
+  
+  section.price-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+  }
+  .price-wrapper > * {
+    flex-basis: 450px;
+   
+  }
+  .panel-box-wrapper{
+      height:800px;
+  }
+  .free-wrapper,
+  .basic-wrapper,
+  .premium-wrapper {
+  display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      border-radius: 10px;
+      justify-content: space-between;
+      box-shadow: 2.8px 2.8px 2.2px rgb(0 0 0 / 7%), 6.7px 6.7px 5.3px rgb(0 0 0 / 5%), 12.5px 12.5px 10px rgb(0 0 0 / 4%), 22.3px 22.3px 17.9px rgb(0 0 0 / 4%), 41.8px 41.8px 33.4px rgb(0 0 0 / 3%), 100px 100px 80px rgb(0 0 0 / 2%);
+  }
+  .inside-content {
+    padding: 25px;
+  }
+  

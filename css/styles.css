@@ -1,0 +1,99 @@
+@import url("pageStyle.css");
+@import url("media.css");
+
+
+
+.container {
+    
+    display: flex;
+    flex-direction: column;
+}
+header#WelcomeText {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+ul.navbar{
+    display:flex;
+    align-items: center;
+}
+section.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 500px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+footer.footer {
+    display: flex;
+    justify-content: center;
+}
+img{
+    width:350px;
+    height:350px;
+    border:1px solid black;
+    border-radius:4px;
+    padding:5px;
+}
+a{
+    text-decoration: none;
+    
+}
+.contactMe{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+}
+.profile{
+    border:1px solid #AC3B61;
+    background-color:#AC3B61;
+    
+    padding:15px;
+    border-radius:5px;
+}
+.profile a{
+    color:white;
+}
+.skills-tags {
+    display: flex;
+    flex-direction: column;
+}
+i{
+    padding:15px;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    padding:5px;
+}
+.bold{
+    flex-grow: 1;
+}
+ul.navfoot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        padding: 5px;
+}
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul.skill-set {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skill-tags{
+   border:1px solid #123c69; 
+   padding:15px;
+   border-radius:10px;
+   background-color:#EDC7b7;
+}

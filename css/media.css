@@ -1,0 +1,57 @@
+@media screen and (min-width: 1024px) {
+    
+.welcome-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.text-image {
+    width: 25%;
+    padding: 25px;
+
+}
+.code{
+    width: 60%;
+}
+
+.description-coding {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.coding-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: center;
+}
+.skills-tags {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+   
+}
+section.coding-journey {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width:89%;
+    /* justify-content: flex-end; */
+}
+ul.skill-set {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+h2 {
+    width: 60%;
+}
+p{
+    font-size:25px;
+}
+}
